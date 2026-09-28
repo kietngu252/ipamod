@@ -5,8 +5,8 @@ Goodnotes6
 
 
 [rewrite_local]
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/goodnotes6.js
-^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/Yu9191/Script/main/goodnotes6.js
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/kietngu252/ipamod/refs/heads/main/Goodnote.js
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/kietngu252/ipamod/refs/heads/main/Goodnote.js
 
 [mitm]
 hostname = isi.csan.goodnotes.com
